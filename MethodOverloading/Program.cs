@@ -28,10 +28,13 @@
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(Add(5, 4, true));
+            Console.WriteLine(Add(3, 8));
+            Console.WriteLine(Add(6.23m, 8.36m));
             Console.WriteLine(Add(1,0,true));
             Console.WriteLine(Add(1,0,false));
             Console.WriteLine(Add(1,3,true));
+            Console.WriteLine(Add(2.45m, 125.75m));
         }
     }
 }
